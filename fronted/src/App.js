@@ -3,13 +3,14 @@ import "./style/app.scss";
 import Home from "./components/home/Home";
 import Header from "./components/layout/Header";
 import './style/header.scss';
+import './style/home.scss'
 
 function App() {
   return (
     <BrowserRouter>
-      <Header/>
+      <Header />
       <Routes>
-        <Route path="/" element={Home}/>
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
