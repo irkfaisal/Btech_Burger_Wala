@@ -3,7 +3,7 @@ import '../../style/header.scss'
 import { IoFastFoodOutline } from "react-icons/io5";
 import { FiShoppingCart, FiLogIn } from "react-icons/fi";
 import { FaUser } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Header = ({ isAuthenticated = false }) => {
