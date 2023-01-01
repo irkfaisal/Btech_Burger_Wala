@@ -1,9 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./style/app.scss";
-import Home from "./components/home/Home";
-import Header from "./components/layout/Header";
-import './style/header.scss';
+import Home from "./components/home/Home"
+import Header from "./components/layout/Header"
+
+import './style/header.scss'
 import './style/home.scss'
+import './style/founder.scss'
+import './style/menu.scss'
+import './style/menuCard.scss'
+
 
 function App() {
   return (
