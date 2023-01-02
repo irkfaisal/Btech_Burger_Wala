@@ -18,6 +18,7 @@ const Menu = () => {
           itemPrice={200}
           tittle={"chicken burger"}
           handler={addToCartHandler}
+          delay={0.1}
         />
         <MenuCard
           itemNum={2}
@@ -25,6 +26,7 @@ const Menu = () => {
           itemPrice={120}
           tittle={"Veg burger"}
           handler={addToCartHandler}
+          delay= {0.5}
         />
         <MenuCard
           itemNum={3}
@@ -32,6 +34,7 @@ const Menu = () => {
           itemPrice={150}
           tittle={"Aloo tiki burger"}
           handler={addToCartHandler}
+          delay= {0.8}
         />
       </div>
     </section>
