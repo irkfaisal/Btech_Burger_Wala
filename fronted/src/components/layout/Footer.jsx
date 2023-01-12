@@ -13,7 +13,7 @@ const Footer = () => {
 
                 <em>We give attention to genuine feedback.</em>
 
-                <strong>All right received @mbaburgerwala</strong>
+                <strong>All right received @BtechBurgerWala</strong>
             </div>
             <aside>
                 <h4>Follow Us</h4>
