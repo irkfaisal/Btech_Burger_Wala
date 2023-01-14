@@ -11,6 +11,8 @@ import PaymentSuccess from "./components/cart/PaymentSuccess";
 import Login from "./components/Login/Login";
 import Profile from "./components/Profile/Profile";
 import MyOrders from "./components/myOrders/MyOrders";
+import OrderDetails from "./components/myOrders/OrderDetails";
+import Dashboard from "./components/admin/Dashboard";
 
 import './style/header.scss'
 import './style/home.scss'
@@ -25,11 +27,8 @@ import './style/paymentsuccess.scss'
 import "./style/login.scss";
 import "./style/profile.scss";
 import "./style/table.scss";
-import "./styles/orderDetails.scss";
-import OrderDetails from "./components/myOrders/OrderDetails.jsx";
-
-
-
+import "./style/orderDetails.scss";
+import "./style/dashboard.scss"
 
 function App() {
   return (
@@ -46,6 +45,7 @@ function App() {
         <Route path="/me" element={<Profile />} />
         <Route path="/myorders" element={<MyOrders />} />
         <Route path="/order/:id" element={<OrderDetails />} />
+        <Route path="/admin/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </BrowserRouter>
