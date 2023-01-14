@@ -8,6 +8,9 @@ import Cart from "./components/cart/Cart";
 import Shipping from "./components/cart/Shipping";
 import ConfirmOrder from "./components/cart/ConfirmOrder";
 import PaymentSuccess from "./components/cart/PaymentSuccess";
+import Login from "./components/Login/Login";
+import Profile from "./components/Profile/Profile";
+import MyOrders from "./components/myOrders/MyOrders";
 
 import './style/header.scss'
 import './style/home.scss'
@@ -19,6 +22,12 @@ import './style/cart.scss'
 import './style/shipping.scss'
 import './style/confirmOrder.scss'
 import './style/paymentsuccess.scss'
+import "./style/login.scss";
+import "./style/profile.scss";
+import "./style/table.scss";
+import "./styles/orderDetails.scss";
+import OrderDetails from "./components/myOrders/OrderDetails.jsx";
+
 
 
 
@@ -33,6 +42,10 @@ function App() {
         <Route path="/shipping" element={<Shipping />} />
         <Route path="/confirmorder" element={<ConfirmOrder />} />
         <Route path="/paymentsuccess" element={<PaymentSuccess />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/me" element={<Profile />} />
+        <Route path="/myorders" element={<MyOrders />} />
+        <Route path="/order/:id" element={<OrderDetails />} />
       </Routes>
       <Footer />
     </BrowserRouter>
