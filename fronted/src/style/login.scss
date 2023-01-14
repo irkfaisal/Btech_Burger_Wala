@@ -11,8 +11,8 @@
   align-items: center;
 
   > button {
-    background-color: white;
-    color: $lightdark;
+    background-color: $reddark;
+    color: #fff;
     border: none;
     border-radius: 10px;
     padding: 1rem 2rem;
@@ -26,7 +26,7 @@
     }
 
     &:hover {
-      color: $dark;
+      color: rgb(221, 196, 196);
     }
   }
 }
