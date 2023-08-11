@@ -34,7 +34,7 @@ import "./style/table.scss";
 import "./style/orderDetails.scss";
 import "./style/dashboard.scss"
 import "./style/about.scss";
-import "./style/NotFound.scss"
+// import "./style/NotFound.scss"
 
 
 function App() {

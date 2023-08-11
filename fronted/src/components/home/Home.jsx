@@ -6,7 +6,7 @@ import Menu from './Menu';
 const Home = () => {
   const motionProp = {
     initial: {
-      x: "-100%",
+      x: "100%",
       opacity: 0,
     },
     whileInView: {
@@ -21,10 +21,10 @@ const Home = () => {
           <motion.h1 {...motionProp}>BTech Burger Wala</motion.h1>
           <motion.p {...motionProp} transition={{
             delay: 0.2,
-          }}>Gt your burger now!</motion.p>
+          }}>Get your burger now!</motion.p>
         </div>
         <motion.a initial={{
-          y: "-100%",
+          y: "100%",
           opacity: 0,
         }}
           whileInView={{
